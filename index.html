@@ -41,13 +41,98 @@
   </head>
   <body>
     <div class="page">
-      <header class="header"></header>
+      <header class="header">
+        <nav class="nav header__nav">
+          <img
+            class="nav__logo"
+            src="./images/logo_coffeeshop_dark.svg"
+            alt="Triple Espresso Coffee Shop Logo"
+          />
+          <ol class="nav__list">
+            <li class="nav__list-item">
+              <a class="nav__link" href="#recipes-section">Recipes</a>
+            </li>
+            <li class="nav__list-item">
+              <a class="nav__link" href="#reservation-section">Book a table</a>
+            </li>
+            <li class="nav__list-item">
+              <a class="nav__link" href="#menu-section">Menu</a>
+            </li>
+            <li class="nav__list-item">
+              <a class="nav__link" href="#about-section">Contacts</a>
+            </li>
+          </ol>
+        </nav>
+        <h1 class="header__title">
+          <span class="header__span-accent">Specialty coffee</span>
+          <span class="header__span-line-two">in the Triple Peaks Library</span>
+        </h1>
+        <p class="header__description">
+          Welcome to our study zone! We've got the coffee to energize you and
+          the cozy vibes to help you get creative.
+        </p>
+        <img
+          src="./images/inside_coffee_shop.png"
+          alt="An Arial View of the Coffee Shop"
+          class="header__image"
+        />
+        <div class="header__footer">
+          <p class="header__paragraph">
+            <span class="header__hours-br">Hours:</span>
+            <span class="header__hours-br"
+              >Monday – Friday (10:00 – 19:00)</span
+            >
+            <span class="header__hours-br"
+              >Saturday – Sunday (11:00 – 18:00)</span
+            >
+          </p>
+          <p class="header__paragraph">
+            200 Success Avenue, The Town of Triple Peaks
+          </p>
+        </div>
+      </header>
       <main class="content">
-        <section class="recipes"></section>
-        <section class="reservation"></section>
-        <section class="menu"></section>
-        <section class="about"></section>
+        <section class="recipes" id="recipes-section">
+          <h2 class="recipes__title">Recipes</h2>
+          <p class="recipes__subtitle">
+            Check out some recipes we've collected for your home-brewing
+            convenience:
+          </p>
+          <div class="recipes__videos">
+            <div class="recipes__videos-section">
+              <iframe
+                class="recipes__iframe"
+                src="https://www.youtube.com/embed/bqqANy2EoKI?si=ZbuBqlYQlanfeqFS"
+                title="Dalgona Recipe on Youtube"
+                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                allowfullscreen
+              ></iframe>
+
+              <div class="recipes__video-title-wrapper">
+                <p class="recipes__video-caption">Dalgona recipe</p>
+                <p class="recipes__video-caption">~5 min</p>
+              </div>
+            </div>
+            <div class="recipes__videos-section">
+              <iframe
+                class="recipes__iframe"
+                src="https://www.youtube.com/embed/st571DYYTR8?si=uKIluuD0c0Y-vr8A"
+                title="French Press Recipe on Youtube"
+                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                allowfullscreen
+              ></iframe>
+              <div class="recipes__video-title-wrapper">
+                <p class="recipes__video-caption">French press recipe</p>
+                <p class="recipes__video-caption">~15 min</p>
+              </div>
+            </div>
+          </div>
+        </section>
+        <section class="reservation" id="reservation-section"></section>
+        <section class="menu" id="menu-section"></section>
+        <section class="about" id="about-section"></section>
       </main>
+
       <footer class="footer"></footer>
     </div>
   </body>
