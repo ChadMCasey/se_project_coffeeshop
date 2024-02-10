@@ -128,7 +128,60 @@
             </div>
           </div>
         </section>
-        <section class="reservation" id="reservation-section"></section>
+        <section class="reservation" id="reservation-section">
+          <div class="form-wrapper">
+            <h2 class="reservation__title">Book a table</h2>
+            <form class="form reservation__form">
+              <fieldset class="form__fieldset">
+                <label for="name" class="form__label">Name *</label>
+                <input
+                  name="name-surname"
+                  type="text"
+                  id="name"
+                  class="form__input"
+                  placeholder="Name Surname"
+                  required
+                />
+
+                <label for="num-guest" class="form__label"
+                  >Number of guests *</label
+                >
+                <input
+                  name="number-guest"
+                  type="number"
+                  min="1"
+                  max="8"
+                  id="num-guest"
+                  class="form__input"
+                  placeholder="1-8"
+                  required
+                />
+                <label for="date-time" class="form__label">Date & time *</label>
+                <input
+                  name="datetime-local"
+                  type="datetime-local"
+                  id="date-time"
+                  class="form__input"
+                  required
+                />
+                <label for="email" class="form__label">Your email *</label>
+                <input
+                  name="email"
+                  type="email"
+                  id="email"
+                  class="form__input"
+                  placeholder="email@email.com"
+                  required
+                />
+              </fieldset>
+              <button type="submit" class="form__button">Book a table</button>
+              <label class="form__label form__label-type-checkbox">
+                <input type="checkbox" class="form__checkbox" required />
+                I agree with the terms of use
+              </label>
+            </form>
+          </div>
+        </section>
         <section class="menu" id="menu-section"></section>
         <section class="about" id="about-section"></section>
       </main>
