@@ -12,9 +12,11 @@
 }
 
 .nav__links {
-  display: flex;
-  column-gap: 20px;
+  padding-left: 0px;
   margin-top: 0px;
+  margin-bottom: 0px;
+  column-gap: 20px;
+  display: flex;
   list-style-type: none;
   font-weight: 500;
 }

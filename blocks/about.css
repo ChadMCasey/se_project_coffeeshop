@@ -40,16 +40,12 @@
 }
 
 .about__paragraph {
-  margin: 0px;
-}
-
-.about__paragraph-divider {
   display: block;
   margin-top: 0px;
   margin-bottom: 20px;
 }
 
-.about__paragraph-divider:last-child {
+.about__paragraph:last-child {
   margin-bottom: 0px;
 }
 

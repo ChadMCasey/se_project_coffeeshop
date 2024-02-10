@@ -1,5 +1,6 @@
 .form {
   width: 100%;
+  max-width: 385px;
 }
 
 .form__fieldset {
@@ -56,6 +57,7 @@
   color: white;
   border: none;
   padding: 0px;
+  cursor: pointer;
 }
 
 .form__button:hover {
@@ -74,4 +76,5 @@
 .form__label_type_checkbox {
   display: flex;
   justify-content: center;
+  margin-bottom: 0px;
 }

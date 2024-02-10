@@ -10,7 +10,7 @@
   margin: 0px;
   margin-bottom: 24px;
   max-width: 580px;
-  font-family: "Inter";
+  font-family: "Inter", Arial, sans-serif;
   font-weight: 500;
   font-size: 44px;
   line-height: 52px;
@@ -29,9 +29,14 @@
 .recipes__videos {
   margin-bottom: 115px;
   margin-top: 80px;
+  padding: 0px;
   display: flex;
   justify-content: center;
   column-gap: 40px;
+}
+
+.recipes__videos-section {
+  list-style-type: none;
 }
 
 .recipes__iframe {

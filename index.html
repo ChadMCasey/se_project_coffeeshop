@@ -17,23 +17,7 @@
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link
-      href="https://fonts.googleapis.com/css2?family=Inter&family=Noto+Serif:ital@1&display=swap"
-      rel="stylesheet"
-    />
-    <link
-      href="https://fonts.googleapis.com/css2?family=Inter:wght@500&family=Noto+Serif:ital@1&display=swap"
-      rel="stylesheet"
-    />
-    <link
-      href="https://fonts.googleapis.com/css2?family=Inter:wght@700&family=Noto+Serif:ital@1&display=swap"
-      rel="stylesheet"
-    />
-    <link
-      href="https://fonts.googleapis.com/css2?family=Inter:wght@700&family=Noto+Serif&display=swap"
-      rel="stylesheet"
-    />
-    <link
-      href="https://fonts.googleapis.com/css2?family=Inter:wght@700&family=Noto+Serif:ital@1&display=swap"
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;700&family=Noto+Serif:ital@0;1&display=swap"
       rel="stylesheet"
     />
     <title>The Coffee Emporium</title>
@@ -64,7 +48,7 @@
         </nav>
         <h1 class="header__title">
           <span class="header__span-accent">Specialty coffee</span>
-          <span class="header__span-standard">in the Triple Peaks Library</span>
+          in the Triple Peaks Library
         </h1>
         <p class="header__description">
           Welcome to our study zone! We've got the coffee to energize you and
@@ -76,15 +60,15 @@
           class="header__image"
         />
         <div class="header__footer">
-          <p class="header__paragraph">
-            <span class="header__hours-br">Hours:</span>
-            <span class="header__hours-br"
+          <div class="header__paragraph-wrapper">
+            <span class="header__paragraph">Hours:</span>
+            <span class="header__paragraph"
               >Monday – Friday (10:00 – 19:00)</span
             >
-            <span class="header__hours-br"
+            <span class="header__paragraph"
               >Saturday – Sunday (11:00 – 18:00)</span
             >
-          </p>
+          </div>
           <p class="header__paragraph">
             200 Success Avenue, The Town of Triple Peaks
           </p>
@@ -97,8 +81,8 @@
             Check out some recipes we've collected for your home-brewing
             convenience:
           </p>
-          <div class="recipes__videos">
-            <div class="recipes__videos-section">
+          <ul class="recipes__videos">
+            <li class="recipes__videos-section">
               <iframe
                 class="recipes__iframe"
                 src="https://www.youtube.com/embed/bqqANy2EoKI?si=ZbuBqlYQlanfeqFS"
@@ -111,8 +95,9 @@
                 <p class="recipes__video-caption">Dalgona recipe</p>
                 <p class="recipes__video-caption">~5 min</p>
               </div>
-            </div>
-            <div class="recipes__videos-section">
+            </li>
+
+            <li class="recipes__videos-section">
               <iframe
                 class="recipes__iframe"
                 src="https://www.youtube.com/embed/st571DYYTR8?si=uKIluuD0c0Y-vr8A"
@@ -124,62 +109,60 @@
                 <p class="recipes__video-caption">French press recipe</p>
                 <p class="recipes__video-caption">~15 min</p>
               </div>
-            </div>
-          </div>
+            </li>
+          </ul>
         </section>
         <section class="reservation" id="reservation-section">
-          <div class="reservation__form-wrapper">
-            <h2 class="reservation__title">Book a table</h2>
-            <form class="form reservation__form">
-              <fieldset class="form__fieldset">
-                <label for="name" class="form__label">Name *</label>
-                <input
-                  name="name-surname"
-                  type="text"
-                  id="name"
-                  class="form__input"
-                  placeholder="Name Surname"
-                  required
-                />
+          <h2 class="reservation__title">Book a table</h2>
+          <form class="form reservation__form">
+            <fieldset class="form__fieldset">
+              <label for="name" class="form__label">Name *</label>
+              <input
+                name="name-surname"
+                type="text"
+                id="name"
+                class="form__input"
+                placeholder="Name Surname"
+                required
+              />
 
-                <label for="num-guest" class="form__label"
-                  >Number of guests *</label
-                >
-                <input
-                  name="number-guest"
-                  type="number"
-                  min="1"
-                  max="8"
-                  id="num-guest"
-                  class="form__input"
-                  placeholder="1-8"
-                  required
-                />
-                <label for="date-time" class="form__label">Date & time *</label>
-                <input
-                  name="datetime-local"
-                  type="datetime-local"
-                  id="date-time"
-                  class="form__input"
-                  required
-                />
-                <label for="email" class="form__label">Your email *</label>
-                <input
-                  name="email"
-                  type="email"
-                  id="email"
-                  class="form__input"
-                  placeholder="email@email.com"
-                  required
-                />
-              </fieldset>
-              <button type="submit" class="form__button">Book a table</button>
-              <label class="form__label form__label_type_checkbox">
-                <input type="checkbox" class="form__checkbox" required />
-                I agree with the terms of use
-              </label>
-            </form>
-          </div>
+              <label for="num-guest" class="form__label"
+                >Number of guests *</label
+              >
+              <input
+                name="number-guest"
+                type="number"
+                min="1"
+                max="8"
+                id="num-guest"
+                class="form__input"
+                placeholder="1-8"
+                required
+              />
+              <label for="date-time" class="form__label">Date & time *</label>
+              <input
+                name="datetime-local"
+                type="datetime-local"
+                id="date-time"
+                class="form__input"
+                required
+              />
+              <label for="email" class="form__label">Your email *</label>
+              <input
+                name="email"
+                type="email"
+                id="email"
+                class="form__input"
+                placeholder="email@email.com"
+                required
+              />
+            </fieldset>
+            <button type="submit" class="form__button">Book a table</button>
+            <label class="form__label form__label_type_checkbox">
+              <input type="checkbox" class="form__checkbox" required />
+              I agree with the terms of use
+            </label>
+          </form>
         </section>
         <section class="menu" id="menu-section">
           <h2 class="menu__title">Menu</h2>
@@ -189,7 +172,7 @@
           </p>
           <div class="menu__cards">
             <div class="card">
-              <p class="card__title">Filter</p>
+              <h3 class="card__title">Filter</h3>
               <ul class="card__list">
                 <li class="card__list-item">
                   Regular (12 oz)
@@ -219,7 +202,7 @@
               </ul>
             </div>
             <div class="card">
-              <p class="card__title">Espresso</p>
+              <h3 class="card__title">Espresso</h3>
               <ul class="card__list">
                 <li class="card__list-item">
                   Macchiato
@@ -244,7 +227,7 @@
               </ul>
             </div>
             <div class="card">
-              <p class="card__title">Baked Goods</p>
+              <h3 class="card__title">Baked Goods</h3>
               <ul class="card__list">
                 <li class="card__list-item">
                   Almond Croissant
@@ -283,20 +266,18 @@
         <section class="about" id="about-section">
           <h2 class="about__title">About the coffee shop</h2>
           <div class="about__content">
-            <p class="about__paragraph">
-              <span class="about__paragraph-divider">
-                Our coffee shop is located in the Triple Peaks Library. It
-                features 6 tables and free WiFi.
-              </span>
-              <span class="about__paragraph-divider">
-                Our main mission is keeping guests cozy and energized.
-              </span>
-              <span class="about__paragraph-divider">
-                Besides that, we try to reduce our environmental impact — so we
-                don't sell single-use cups. But you can buy one of our reusable
-                cups!
-              </span>
-            </p>
+            <span class="about__paragraph">
+              Our coffee shop is located in the Triple Peaks Library. It
+              features 6 tables and free WiFi.
+            </span>
+            <span class="about__paragraph">
+              Our main mission is keeping guests cozy and energized.
+            </span>
+            <span class="about__paragraph">
+              Besides that, we try to reduce our environmental impact — so we
+              don't sell single-use cups. But you can buy one of our reusable
+              cups!
+            </span>
           </div>
           <div class="about__circle"></div>
           <div class="about__circle about__circle_animation_blurred"></div>
@@ -310,7 +291,7 @@
             class="footer__logo"
           />
           <div class="footer__social-media-section">
-            <p class="footer__social-heading">Social Media</p>
+            <h3 class="footer__social-heading">Social Media</h3>
             <ul class="footer__list">
               <li class="footer__list-item">
                 <img
