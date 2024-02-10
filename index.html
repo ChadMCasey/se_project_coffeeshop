@@ -12,7 +12,6 @@
       name="keywords"
       content="coffee, specialty coffee, triple peaks library"
     />
-    <link rel="stylesheet" href="vendor/normalize.css" />
     <link rel="stylesheet" href="pages/index.css" />
     <link rel="icon" href="favicon.ico" />
     <link rel="preconnect" href="https://fonts.googleapis.com" />
@@ -49,23 +48,23 @@
             alt="Triple Espresso Coffee Shop Logo"
           />
           <ol class="nav__links">
-            <li class="nav__links-item">
+            <li>
               <a class="nav__link" href="#recipes-section">Recipes</a>
             </li>
-            <li class="nav__links-item">
+            <li>
               <a class="nav__link" href="#reservation-section">Book a table</a>
             </li>
-            <li class="nav__links-item">
+            <li>
               <a class="nav__link" href="#menu-section">Menu</a>
             </li>
-            <li class="nav__links-item">
+            <li>
               <a class="nav__link" href="#about-section">Contacts</a>
             </li>
           </ol>
         </nav>
         <h1 class="header__title">
           <span class="header__span-accent">Specialty coffee</span>
-          <span class="header__span-line-two">in the Triple Peaks Library</span>
+          <span class="header__span-standard">in the Triple Peaks Library</span>
         </h1>
         <p class="header__description">
           Welcome to our study zone! We've got the coffee to energize you and
@@ -129,7 +128,7 @@
           </div>
         </section>
         <section class="reservation" id="reservation-section">
-          <div class="form-wrapper">
+          <div class="reservation__form-wrapper">
             <h2 class="reservation__title">Book a table</h2>
             <form class="form reservation__form">
               <fieldset class="form__fieldset">
@@ -175,18 +174,165 @@
                 />
               </fieldset>
               <button type="submit" class="form__button">Book a table</button>
-              <label class="form__label form__label-type-checkbox">
+              <label class="form__label form__label_type_checkbox">
                 <input type="checkbox" class="form__checkbox" required />
                 I agree with the terms of use
               </label>
             </form>
           </div>
         </section>
-        <section class="menu" id="menu-section"></section>
-        <section class="about" id="about-section"></section>
+        <section class="menu" id="menu-section">
+          <h2 class="menu__title">Menu</h2>
+          <p class="menu__subtitle">
+            We brew coffee from locally roasted, Fairtrade certified beans and
+            use biodegradable cups. All teas from our collection are $2/cup.
+          </p>
+          <div class="menu__cards">
+            <div class="card">
+              <p class="card__title">Filter</p>
+              <ul class="card__list">
+                <li class="card__list-item">
+                  Regular (12 oz)
+                  <span class="card__list-divider"></span>
+                  $1
+                </li>
+                <li class="card__list-item">
+                  Large (16 oz)
+                  <span class="card__list-divider"></span>
+                  $1.25
+                </li>
+                <li class="card__list-item">
+                  XL (20 oz)
+                  <span class="card__list-divider"></span>
+                  $1.5
+                </li>
+                <li class="card__list-item">
+                  Party-size (24 oz, decaf )
+                  <span class="card__list-divider"></span>
+                  $1.75
+                </li>
+                <li class="card__list-item">
+                  Iced Coffee (16 oz)
+                  <span class="card__list-divider"></span>
+                  $1.25
+                </li>
+              </ul>
+            </div>
+            <div class="card">
+              <p class="card__title">Espresso</p>
+              <ul class="card__list">
+                <li class="card__list-item">
+                  Macchiato
+                  <span class="card__list-divider"></span>
+                  $2.25
+                </li>
+                <li class="card__list-item">
+                  Cortado
+                  <span class="card__list-divider"></span>
+                  $2.5
+                </li>
+                <li class="card__list-item">
+                  Mocha
+                  <span class="card__list-divider"></span>
+                  $3
+                </li>
+                <li class="card__list-item">
+                  Sunrise in the Bay Area (decaf)
+                  <span class="card__list-divider"></span>
+                  $10
+                </li>
+              </ul>
+            </div>
+            <div class="card">
+              <p class="card__title">Baked Goods</p>
+              <ul class="card__list">
+                <li class="card__list-item">
+                  Almond Croissant
+                  <span class="card__list-divider"></span>
+                  $2
+                </li>
+                <li class="card__list-item">
+                  Banana Bread
+                  <span class="card__list-divider"></span>
+                  $1.75
+                </li>
+                <li class="card__list-item">
+                  Key Lime Pie
+                  <span class="card__list-divider"></span>
+                  $3
+                </li>
+                <li class="card__list-item">
+                  Blue Velvet Cake
+                  <span class="card__list-divider"></span>
+                  $3.75
+                </li>
+                <li class="card__list-item">
+                  Web Cookie
+                  <span class="card__list-divider"></span>
+                  $2
+                </li>
+                <li class="card__list-item">
+                  Fresh Bug’uette
+                  <span class="card__list-divider"></span>
+                  $0.25
+                </li>
+              </ul>
+            </div>
+          </div>
+        </section>
+        <section class="about" id="about-section">
+          <h2 class="about__title">About the coffee shop</h2>
+          <div class="about__content">
+            <p class="about__paragraph">
+              <span class="about__paragraph-divider">
+                Our coffee shop is located in the Triple Peaks Library. It
+                features 6 tables and free WiFi.
+              </span>
+              <span class="about__paragraph-divider">
+                Our main mission is keeping guests cozy and energized.
+              </span>
+              <span class="about__paragraph-divider">
+                Besides that, we try to reduce our environmental impact — so we
+                don't sell single-use cups. But you can buy one of our reusable
+                cups!
+              </span>
+            </p>
+          </div>
+          <div class="about__circle"></div>
+          <div class="about__circle about__circle_animation_blurred"></div>
+        </section>
       </main>
-
-      <footer class="footer"></footer>
+      <footer class="footer">
+        <div class="footer__content">
+          <img
+            src="./images/logo_coffeeshop_light.svg"
+            alt="Triple Espresso"
+            class="footer__logo"
+          />
+          <div class="footer__social-media-section">
+            <p class="footer__social-heading">Social Media</p>
+            <ul class="footer__list">
+              <li class="footer__list-item">
+                <img
+                  src="./images/facebook_white.svg"
+                  alt="Facebook Logo"
+                  class="footer__social-icon"
+                />
+                <a href="#" class="footer__social-link">Facebook</a>
+              </li>
+              <li class="footer__list-item">
+                <img
+                  src="./images/instagram_white.svg"
+                  alt="Instagram Logo"
+                  class="footer__social-icon"
+                />
+                <a href="#" class="footer__social-link">Instagram</a>
+              </li>
+            </ul>
+          </div>
+        </div>
+        <p class="footer__copyright">@ 2024 Chad Casey</p>
+      </footer>
     </div>
   </body>
 </html>
