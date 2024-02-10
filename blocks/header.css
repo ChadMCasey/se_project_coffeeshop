@@ -81,6 +81,7 @@
 
 .header__paragraph {
   display: block;
+  margin: 0px;
   font-weight: 500;
   color: #838383;
 }
