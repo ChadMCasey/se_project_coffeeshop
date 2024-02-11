@@ -14,3 +14,5 @@ This is the second project of the Software Engineering program at TripleTen. It 
 ## Plan on improving the project
 
 In the future i will be adding new pages to the site, so it functions as more than a landing page. Moreover, i need to fix links that have no address that they link to, for example, the social media icons in the footer. Adding more animations & graphics is something that i look forward to as well!
+
+https://chadmcasey.github.io/se_project_coffeeshop/
