@@ -1,6 +1,6 @@
 # Triple Peaks Coffee Shop
 
-This is the second project of the Software Engineering program at TripleTen. It was created using HTML and CSS, based on the design brief. The project is designed around the hypothetical Triple Espresso Coffee shop, and functions as a landing page. Currently the landing page has self referential links (all links will not take you off the landing page). I have plans to expand the project and give certain links, like the social icon links, real meaning in the future. Moreover, i plan on adding more pages to the site as well.
+This is the second project of the Software Engineering program at TripleTen. It was created using HTML and CSS, following a design brief. The project is designed around the hypothetical Triple Espresso Coffee shop, and functions as a landing page. Currently the site has self referential links, and only consist of one page. Its unlikely that there will be updates to this project moving forward as this project was created early in my journey developing as software engineering. None the less, it increased my exposure to things like flexbox, absolute positioning, continous animations, embedded content with iframes, and more!
 
 ## Project features
 
@@ -11,8 +11,10 @@ This is the second project of the Software Engineering program at TripleTen. It 
 - A custom form
 - CSS animation and transform
 
-## Plan on improving the project
+## Demonstration
 
-In the future i will be adding new pages to the site, so it functions as more than a landing page. Moreover, i need to fix links that have no address that they link to, for example, the social media icons in the footer. Adding more animations & graphics is something that i look forward to as well!
+https://media.giphy.com/media/v1.Y2lkPTc5MGI3NjExbHd6MG9pYWQwMnNqbXljdjh6enJuOWNibXJhd2hlOWVhZjQ1MDgyOCZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/Do2wrN61j2Eyf181Ku/giphy.gif
 
+
+## Project Live Page
 https://chadmcasey.github.io/se_project_coffeeshop/
