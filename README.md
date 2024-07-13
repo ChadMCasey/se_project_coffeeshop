@@ -11,7 +11,7 @@ This is the second project of the Software Engineering program at TripleTen. It 
 - A custom form
 - CSS animation and transform
 
-## Demonstration
+## Site Demonstration
 
 ![](https://media.giphy.com/media/v1.Y2lkPTc5MGI3NjExbHd6MG9pYWQwMnNqbXljdjh6enJuOWNibXJhd2hlOWVhZjQ1MDgyOCZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/Do2wrN61j2Eyf181Ku/giphy.gif)
 
