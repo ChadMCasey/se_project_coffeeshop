@@ -1,6 +1,6 @@
 # Triple Peaks Coffee Shop
 
-This is the second project of the Software Engineering program at TripleTen. It was created using HTML and CSS, following a design brief. The project is designed around the hypothetical Triple Espresso Coffee shop, and functions as a landing page. Currently the site has self referential links, and only consist of one page. Its unlikely that there will be updates to this project moving forward as this project was created early in my journey developing as software engineering. None the less, it increased my exposure to things like flexbox, absolute positioning, continous animations, embedded content with iframes, and more!
+This is the second project within the Software Engineering program at TripleTen. It was created using HTML and CSS, following a design brief. The project is designed around the hypothetical Triple Espresso Coffee shop, and functions as a landing page. Currently the site has self referential links, and only consist of one page. Its unlikely that there will be updates to this project moving forward as this project was created early in my journey developing as software engineering. None the less, it increased my exposure to things like flexbox, absolute positioning, continous animations, embedded content with iframes, and more!
 
 ## Project features
 
